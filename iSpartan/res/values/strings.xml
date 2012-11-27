@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iSpartan</string>
+    <string name="title_section4">Friend Search</string>
+    <string name="title_section3">Alerts</string>
+    <string name="title_section2">Recommendations</string>
+    <string name="title_section1">Crib</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">iSpartan</string>
+    <string name="button_submit">Update Status</string>
+    <string name="edit_status">Enter new status</string>
+
+</resources>
