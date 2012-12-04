@@ -30,4 +30,16 @@
 		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>res/drawable-hdpi/android.jpg</name>
+			<type>1</type>
+			<location>D:/Downloads/android-s1-7b.jpg</location>
+		</link>
+		<link>
+			<name>res/drawable-hdpi/ispartanlogo.png</name>
+			<type>1</type>
+			<location>D:/Downloads/iSpartan_Logo.png</location>
+		</link>
+	</linkedResources>
 </projectDescription>
