@@ -29,6 +29,16 @@
             android:name="com.example.ispartan.MainActivity"
             android:label="@string/title_activity_main" >
         </activity>
+        <activity
+            android:name="com.example.ispartan.MakeRecommendationActivity"
+            android:label="@string/make_recommendation"
+            android:parentActivityName="com.example.ispartan.MainActivity" >
+        </activity>
+        <activity 
+            android:name="com.example.ispartan.MakeAlertActivity"
+            android:label="@string/add_alert"
+            android:parentActivityName="com.example.ispartan.MainActivity" >
+        </activity>
     </application>
 
 </manifest>
