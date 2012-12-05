@@ -32,7 +32,9 @@ public class MainActivity extends Activity {
     	final Button submitStatusButton = (Button) findViewById(R.id.submitStatus);
     	
     	final TextView status = (TextView) findViewById(R.id.statusTextView);
+    	final EditText recAdrText = (EditText) findViewById(R.id.editText1);
     	final EditText recText = (EditText) findViewById(R.id.editText2);
+    	final EditText alertAdrText = (EditText) findViewById(R.id.editText3);
     	final EditText alertText = (EditText) findViewById(R.id.editText4);
     	final EditText recView = (EditText) findViewById(R.id.recommendationEditText);
     	final EditText alertView = (EditText) findViewById(R.id.alertEditText);
@@ -44,7 +46,9 @@ public class MainActivity extends Activity {
             	mainScreen.setVisibility(invisible);
             	recommendScreen.setVisibility(invisible);
             	alertScreen.setVisibility(invisible);
+            	recAdrText.setText(""); //reset textView
             	recText.setText(""); //reset textView
+            	alertAdrText.setText(""); //reset textView
             	alertText.setText(""); //reset textView
             	statusDialog.setText(""); //reset textView
             }
@@ -95,7 +99,8 @@ public class MainActivity extends Activity {
 
 					@Override
 					public void onClick(View v) {
-						alertMessages += alertText.getText().toString() + "\n\n";
+						alertMessages += alertText.getText().toString() + " @"
+								+ alertAdrText.getText().toString() + "\n\n";
 						alertView.setText(alertMessages);
 						clear();
 						mainScreen.setVisibility(visible);
