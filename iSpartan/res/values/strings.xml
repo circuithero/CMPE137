@@ -23,6 +23,12 @@
     <string name="location">Location</string>
     <string name="alert">Alert</string>
     <string name="current_status">Current Status </string>
-    <string name="update">Update</string>
+    <string name="update">Update Status</string>
+    <string name="start">logging in&#8230;</string>
+    <string name="alerts">Alerts</string>
+    <string name="status">New Status</string>
+    <string name="status_hint">Tell the world how you\'re feeling!</string>
+    <string name="rec_hint">No recommendations</string>
+    <string name="alert_hint">No alerts</string>
 
 </resources>
